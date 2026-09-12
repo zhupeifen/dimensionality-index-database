@@ -1,0 +1,28 @@
+{
+ "evaluated": 5842,
+ "sampled": 7500,
+ "differ_pct": 28.9,
+ "by_class": {
+  "oxide": {
+   "n": 1867,
+   "differ_pct": 43.6
+  },
+  "halide": {
+   "n": 1854,
+   "differ_pct": 17.3
+  },
+  "chalcogen": {
+   "n": 2121,
+   "differ_pct": 26.2
+  }
+ },
+ "by_rank": {
+  "0": 23.5,
+  "1": 88.7,
+  "2": 75.1,
+  "3": 9.0
+ },
+ "mixed_pct": 10.3,
+ "skipped_large": 1658,
+ "halide_random_pct": 17.3
+}

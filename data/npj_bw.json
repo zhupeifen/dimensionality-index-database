@@ -1,0 +1,2121 @@
+{
+ "n_total": 334,
+ "n_metallic": 86,
+ "pooled": {
+  "n": 334,
+  "slope": 0.218,
+  "r": 0.313,
+  "p": 1.8454421432745783e-09,
+  "intercept": 0.278
+ },
+ "insulating": {
+  "n": 248,
+  "slope": 0.141,
+  "r": 0.278,
+  "p": 5.7988723723039525e-06,
+  "intercept": 0.281
+ },
+ "by_class": {
+  "oxide": {
+   "n": 113,
+   "slope": 0.082,
+   "r": 0.156,
+   "p": 0.09617678050287143,
+   "intercept": 0.345
+  },
+  "halide": {
+   "n": 111,
+   "slope": 0.157,
+   "r": 0.234,
+   "p": 0.01192613870097188,
+   "intercept": 0.262
+  },
+  "chalcogen": {
+   "n": 110,
+   "slope": 0.444,
+   "r": 0.542,
+   "p": 2.1552087015841293e-11,
+   "intercept": 0.189
+  }
+ },
+ "means": {
+  "oxide": {
+   "0": 0.421,
+   "1": 0.318,
+   "2": 0.528,
+   "3": 0.609
+  },
+  "halide": {
+   "0": 0.195,
+   "1": 0.502,
+   "2": 0.649,
+   "3": 0.656
+  },
+  "chalcogen": {
+   "0": 0.311,
+   "1": 0.621,
+   "2": 1.068,
+   "3": 1.581
+  }
+ },
+ "counts": {
+  "oxide": {
+   "0": 29,
+   "1": 26,
+   "2": 28,
+   "3": 30
+  },
+  "halide": {
+   "0": 25,
+   "1": 29,
+   "2": 27,
+   "3": 30
+  },
+  "chalcogen": {
+   "0": 28,
+   "1": 28,
+   "2": 28,
+   "3": 26
+  }
+ },
+ "points": [
+  {
+   "D": 0.0,
+   "w": 0.0755,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 0.0,
+   "w": 0.0524,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 0.0,
+   "w": 0.0939,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 0.0,
+   "w": 0.5839,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 0.0,
+   "w": 0.4348,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 0.0,
+   "w": 0.429,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 0.0,
+   "w": 0.1095,
+   "cls": "oxide",
+   "met": true
+  },
+  {
+   "D": 0.0,
+   "w": 4.2545,
+   "cls": "oxide",
+   "met": true
+  },
+  {
+   "D": 0.0,
+   "w": 0.1096,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 0.177,
+   "w": 0.3413,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 0.0,
+   "w": 0.0358,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 0.0,
+   "w": 0.1676,
+   "cls": "oxide",
+   "met": true
+  },
+  {
+   "D": 0.194,
+   "w": 0.0584,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 0.0,
+   "w": 0.3967,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 0.0,
+   "w": 0.1462,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 0.0,
+   "w": 0.4496,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 0.0,
+   "w": 0.9321,
+   "cls": "oxide",
+   "met": true
+  },
+  {
+   "D": 0.177,
+   "w": 0.2098,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 0.0,
+   "w": 0.6018,
+   "cls": "oxide",
+   "met": true
+  },
+  {
+   "D": 0.0,
+   "w": 0.0346,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 0.0,
+   "w": 0.0459,
+   "cls": "oxide",
+   "met": true
+  },
+  {
+   "D": 0.074,
+   "w": 0.2817,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 0.102,
+   "w": 0.0504,
+   "cls": "oxide",
+   "met": true
+  },
+  {
+   "D": 0.0,
+   "w": 0.107,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 0.0,
+   "w": 0.3097,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 0.0,
+   "w": 0.2156,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 0.0,
+   "w": 0.1433,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 0.0,
+   "w": 0.0551,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 0.0,
+   "w": 1.4815,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 1.0,
+   "w": 0.0769,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 1.022,
+   "w": 0.1166,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 1.296,
+   "w": 0.2405,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 1.101,
+   "w": 0.3704,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 1.074,
+   "w": 0.2719,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 1.049,
+   "w": 0.3773,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 1.007,
+   "w": 0.1842,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 1.049,
+   "w": 0.2048,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 1.105,
+   "w": 0.1291,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 1.333,
+   "w": 0.1392,
+   "cls": "oxide",
+   "met": true
+  },
+  {
+   "D": 1.007,
+   "w": 0.2327,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 1.159,
+   "w": 0.3191,
+   "cls": "oxide",
+   "met": true
+  },
+  {
+   "D": 1.012,
+   "w": 0.0919,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 1.072,
+   "w": 0.2847,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 1.007,
+   "w": 0.0606,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 1.446,
+   "w": 2.0305,
+   "cls": "oxide",
+   "met": true
+  },
+  {
+   "D": 1.085,
+   "w": 0.2715,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 1.006,
+   "w": 0.185,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 1.073,
+   "w": 0.2957,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 1.005,
+   "w": 0.1482,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 1.012,
+   "w": 0.7616,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 1.028,
+   "w": 0.4806,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 1.074,
+   "w": 0.2687,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 1.068,
+   "w": 0.2537,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 1.006,
+   "w": 0.1857,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 1.073,
+   "w": 0.2967,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 2.38,
+   "w": 1.3882,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 2.205,
+   "w": 0.2463,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 2.409,
+   "w": 0.4411,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 2.0,
+   "w": 0.2101,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 2.0,
+   "w": 0.5344,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 2.095,
+   "w": 0.2751,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 2.0,
+   "w": 0.4951,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 2.136,
+   "w": 0.4495,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 2.383,
+   "w": 2.5419,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 2.231,
+   "w": 0.1639,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 2.0,
+   "w": 0.6315,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 2.0,
+   "w": 1.2197,
+   "cls": "oxide",
+   "met": true
+  },
+  {
+   "D": 2.049,
+   "w": 0.1882,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 2.0,
+   "w": 0.7454,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 2.213,
+   "w": 0.0862,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 2.206,
+   "w": 0.1695,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 2.0,
+   "w": 0.8674,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 2.0,
+   "w": 0.5086,
+   "cls": "oxide",
+   "met": true
+  },
+  {
+   "D": 2.101,
+   "w": 0.6935,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 2.0,
+   "w": 0.2954,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 2.226,
+   "w": 0.294,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 2.0,
+   "w": 0.9079,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 2.047,
+   "w": 0.3509,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 2.267,
+   "w": 0.144,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 2.0,
+   "w": 0.317,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 2.072,
+   "w": 0.0301,
+   "cls": "oxide",
+   "met": true
+  },
+  {
+   "D": 2.0,
+   "w": 0.2249,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 2.012,
+   "w": 0.357,
+   "cls": "oxide",
+   "met": true
+  },
+  {
+   "D": 3.0,
+   "w": 0.3501,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 2.3593,
+   "cls": "oxide",
+   "met": true
+  },
+  {
+   "D": 3.0,
+   "w": 0.0517,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 0.3453,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 0.8679,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 0.1817,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 1.3654,
+   "cls": "oxide",
+   "met": true
+  },
+  {
+   "D": 3.0,
+   "w": 0.5497,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 0.5501,
+   "cls": "oxide",
+   "met": true
+  },
+  {
+   "D": 3.0,
+   "w": 0.5417,
+   "cls": "oxide",
+   "met": true
+  },
+  {
+   "D": 3.0,
+   "w": 0.3086,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 0.2816,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 0.3773,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 0.6062,
+   "cls": "oxide",
+   "met": true
+  },
+  {
+   "D": 3.0,
+   "w": 0.6555,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 0.8982,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 0.0218,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 0.5591,
+   "cls": "oxide",
+   "met": true
+  },
+  {
+   "D": 3.0,
+   "w": 0.164,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 2.5441,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 0.581,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 0.3133,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 0.5658,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 0.3416,
+   "cls": "oxide",
+   "met": true
+  },
+  {
+   "D": 3.0,
+   "w": 0.2266,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 0.2348,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 0.2221,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 0.7481,
+   "cls": "oxide",
+   "met": true
+  },
+  {
+   "D": 3.0,
+   "w": 0.2746,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 1.1694,
+   "cls": "oxide",
+   "met": false
+  },
+  {
+   "D": 0.0,
+   "w": 0.1348,
+   "cls": "halide",
+   "met": true
+  },
+  {
+   "D": 0.0,
+   "w": 0.0752,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 0.0,
+   "w": 0.0951,
+   "cls": "halide",
+   "met": true
+  },
+  {
+   "D": 0.0,
+   "w": 0.2257,
+   "cls": "halide",
+   "met": true
+  },
+  {
+   "D": 0.0,
+   "w": 0.0575,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 0.0,
+   "w": 0.0413,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 0.0,
+   "w": 0.0164,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 0.0,
+   "w": 0.1074,
+   "cls": "halide",
+   "met": true
+  },
+  {
+   "D": 0.0,
+   "w": 0.2231,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 0.0,
+   "w": 0.0483,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 0.0,
+   "w": 0.0893,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 0.0,
+   "w": 0.1895,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 0.0,
+   "w": 0.1579,
+   "cls": "halide",
+   "met": true
+  },
+  {
+   "D": 0.0,
+   "w": 0.0605,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 0.0,
+   "w": 1.7543,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 0.0,
+   "w": 0.0492,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 0.0,
+   "w": 0.137,
+   "cls": "halide",
+   "met": true
+  },
+  {
+   "D": 0.0,
+   "w": 0.2083,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 0.0,
+   "w": 0.1553,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 0.0,
+   "w": 0.0697,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 0.0,
+   "w": 0.3621,
+   "cls": "halide",
+   "met": true
+  },
+  {
+   "D": 0.0,
+   "w": 0.1764,
+   "cls": "halide",
+   "met": true
+  },
+  {
+   "D": 0.0,
+   "w": 0.1061,
+   "cls": "halide",
+   "met": true
+  },
+  {
+   "D": 0.0,
+   "w": 0.2779,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 0.0,
+   "w": 0.0447,
+   "cls": "halide",
+   "met": true
+  },
+  {
+   "D": 1.028,
+   "w": 0.2581,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 1.046,
+   "w": 0.1912,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 1.086,
+   "w": 0.1641,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 1.0,
+   "w": 0.3667,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 1.012,
+   "w": 0.1575,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 1.034,
+   "w": 0.1227,
+   "cls": "halide",
+   "met": true
+  },
+  {
+   "D": 1.099,
+   "w": 0.1266,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 1.307,
+   "w": 0.0845,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 1.045,
+   "w": 0.0727,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 1.007,
+   "w": 0.5553,
+   "cls": "halide",
+   "met": true
+  },
+  {
+   "D": 1.0,
+   "w": 1.0471,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 1.088,
+   "w": 0.1406,
+   "cls": "halide",
+   "met": true
+  },
+  {
+   "D": 1.0,
+   "w": 0.1458,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 1.006,
+   "w": 0.4776,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 1.039,
+   "w": 0.1026,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 1.073,
+   "w": 0.2033,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 1.054,
+   "w": 0.452,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 1.007,
+   "w": 1.7139,
+   "cls": "halide",
+   "met": true
+  },
+  {
+   "D": 1.01,
+   "w": 0.3043,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 1.0,
+   "w": 0.3328,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 1.004,
+   "w": 0.447,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 1.0,
+   "w": 0.2915,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 1.0,
+   "w": 0.6654,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 1.302,
+   "w": 4.7044,
+   "cls": "halide",
+   "met": true
+  },
+  {
+   "D": 1.102,
+   "w": 0.0662,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 1.0,
+   "w": 0.8995,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 1.074,
+   "w": 0.0592,
+   "cls": "halide",
+   "met": true
+  },
+  {
+   "D": 1.022,
+   "w": 0.0437,
+   "cls": "halide",
+   "met": true
+  },
+  {
+   "D": 1.218,
+   "w": 0.3712,
+   "cls": "halide",
+   "met": true
+  },
+  {
+   "D": 2.045,
+   "w": 0.4463,
+   "cls": "halide",
+   "met": true
+  },
+  {
+   "D": 2.119,
+   "w": 0.9293,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 2.0,
+   "w": 0.3038,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 2.088,
+   "w": 0.0509,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 2.028,
+   "w": 0.9069,
+   "cls": "halide",
+   "met": true
+  },
+  {
+   "D": 2.63,
+   "w": 0.6733,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 2.0,
+   "w": 0.1351,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 2.0,
+   "w": 0.2319,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 2.066,
+   "w": 0.1311,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 2.0,
+   "w": 0.11,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 2.0,
+   "w": 0.1709,
+   "cls": "halide",
+   "met": true
+  },
+  {
+   "D": 2.054,
+   "w": 0.7302,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 2.0,
+   "w": 0.5345,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 2.086,
+   "w": 0.8825,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 2.0,
+   "w": 2.1014,
+   "cls": "halide",
+   "met": true
+  },
+  {
+   "D": 2.0,
+   "w": 0.6451,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 2.0,
+   "w": 0.0337,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 2.0,
+   "w": 0.7852,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 2.0,
+   "w": 1.9157,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 2.03,
+   "w": 0.1312,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 2.0,
+   "w": 0.8532,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 2.08,
+   "w": 2.4223,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 2.151,
+   "w": 0.5724,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 2.0,
+   "w": 0.6759,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 2.0,
+   "w": 0.6463,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 2.0,
+   "w": 0.063,
+   "cls": "halide",
+   "met": true
+  },
+  {
+   "D": 2.0,
+   "w": 0.4333,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 0.1496,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 0.3796,
+   "cls": "halide",
+   "met": true
+  },
+  {
+   "D": 3.0,
+   "w": 2.7993,
+   "cls": "halide",
+   "met": true
+  },
+  {
+   "D": 3.0,
+   "w": 0.2979,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 0.5945,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 0.2446,
+   "cls": "halide",
+   "met": true
+  },
+  {
+   "D": 3.0,
+   "w": 0.4559,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 0.1231,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 0.7017,
+   "cls": "halide",
+   "met": true
+  },
+  {
+   "D": 3.0,
+   "w": 0.9932,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 0.4259,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 2.6888,
+   "cls": "halide",
+   "met": true
+  },
+  {
+   "D": 3.0,
+   "w": 0.1592,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 0.1457,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 0.2631,
+   "cls": "halide",
+   "met": true
+  },
+  {
+   "D": 3.0,
+   "w": 1.5081,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 0.1201,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 0.0622,
+   "cls": "halide",
+   "met": true
+  },
+  {
+   "D": 3.0,
+   "w": 0.3518,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 0.1189,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 0.0195,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 0.1048,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 0.7851,
+   "cls": "halide",
+   "met": true
+  },
+  {
+   "D": 3.0,
+   "w": 0.1852,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 0.2589,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 1.1596,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 0.2321,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 0.5541,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 0.1267,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 3.6757,
+   "cls": "halide",
+   "met": false
+  },
+  {
+   "D": 0.0,
+   "w": 0.3255,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 0.3,
+   "w": 0.4145,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 0.0,
+   "w": 0.2086,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 0.301,
+   "w": 0.4149,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 0.3,
+   "w": 0.4151,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 0.0,
+   "w": 0.1938,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 0.0,
+   "w": 0.7507,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 0.0,
+   "w": 0.3574,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 0.504,
+   "w": 0.193,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 0.299,
+   "w": 0.4124,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 0.0,
+   "w": 0.3633,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 0.0,
+   "w": 0.3356,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 0.0,
+   "w": 0.1892,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 0.301,
+   "w": 0.4168,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 0.0,
+   "w": 0.2389,
+   "cls": "chalcogen",
+   "met": true
+  },
+  {
+   "D": 0.302,
+   "w": 0.4169,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 0.082,
+   "w": 0.0241,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 0.0,
+   "w": 0.0633,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 0.301,
+   "w": 0.4146,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 0.0,
+   "w": 0.2666,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 0.0,
+   "w": 0.3993,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 0.299,
+   "w": 0.4138,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 0.302,
+   "w": 0.416,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 0.0,
+   "w": 0.165,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 0.0,
+   "w": 0.0132,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 0.037,
+   "w": 0.2529,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 0.039,
+   "w": 0.1815,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 0.0,
+   "w": 0.4615,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 1.012,
+   "w": 0.7319,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 1.361,
+   "w": 0.7353,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 1.211,
+   "w": 0.2904,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 1.444,
+   "w": 1.1808,
+   "cls": "chalcogen",
+   "met": true
+  },
+  {
+   "D": 1.4,
+   "w": 0.4864,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 1.011,
+   "w": 0.5513,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 1.012,
+   "w": 0.5522,
+   "cls": "chalcogen",
+   "met": true
+  },
+  {
+   "D": 1.0,
+   "w": 0.7956,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 1.05,
+   "w": 0.0356,
+   "cls": "chalcogen",
+   "met": true
+  },
+  {
+   "D": 1.0,
+   "w": 1.0697,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 1.0,
+   "w": 0.806,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 1.495,
+   "w": 1.1856,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 1.0,
+   "w": 0.5238,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 1.0,
+   "w": 0.9016,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 1.016,
+   "w": 0.3582,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 1.0,
+   "w": 0.7234,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 1.264,
+   "w": 0.2914,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 1.073,
+   "w": 0.4197,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 1.136,
+   "w": 1.1258,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 1.477,
+   "w": 0.1966,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 1.0,
+   "w": 0.8357,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 1.117,
+   "w": 0.456,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 1.371,
+   "w": 0.673,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 1.359,
+   "w": 0.7101,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 1.154,
+   "w": 0.5554,
+   "cls": "chalcogen",
+   "met": true
+  },
+  {
+   "D": 1.0,
+   "w": 0.3082,
+   "cls": "chalcogen",
+   "met": true
+  },
+  {
+   "D": 1.006,
+   "w": 0.0543,
+   "cls": "chalcogen",
+   "met": true
+  },
+  {
+   "D": 1.009,
+   "w": 0.8414,
+   "cls": "chalcogen",
+   "met": true
+  },
+  {
+   "D": 2.0,
+   "w": 0.3069,
+   "cls": "chalcogen",
+   "met": true
+  },
+  {
+   "D": 2.101,
+   "w": 2.3266,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 2.0,
+   "w": 0.589,
+   "cls": "chalcogen",
+   "met": true
+  },
+  {
+   "D": 2.0,
+   "w": 1.053,
+   "cls": "chalcogen",
+   "met": true
+  },
+  {
+   "D": 2.0,
+   "w": 0.7897,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 2.0,
+   "w": 0.4178,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 2.0,
+   "w": 0.3251,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 2.0,
+   "w": 0.6578,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 2.009,
+   "w": 0.7138,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 2.393,
+   "w": 2.0737,
+   "cls": "chalcogen",
+   "met": true
+  },
+  {
+   "D": 2.027,
+   "w": 0.5918,
+   "cls": "chalcogen",
+   "met": true
+  },
+  {
+   "D": 2.171,
+   "w": 2.4529,
+   "cls": "chalcogen",
+   "met": true
+  },
+  {
+   "D": 2.0,
+   "w": 0.7986,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 2.401,
+   "w": 0.2504,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 2.169,
+   "w": 2.4656,
+   "cls": "chalcogen",
+   "met": true
+  },
+  {
+   "D": 2.443,
+   "w": 1.4069,
+   "cls": "chalcogen",
+   "met": true
+  },
+  {
+   "D": 2.017,
+   "w": 1.1467,
+   "cls": "chalcogen",
+   "met": true
+  },
+  {
+   "D": 2.0,
+   "w": 0.2845,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 2.009,
+   "w": 0.9411,
+   "cls": "chalcogen",
+   "met": true
+  },
+  {
+   "D": 2.0,
+   "w": 0.5212,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 2.054,
+   "w": 1.893,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 2.193,
+   "w": 1.6214,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 2.0,
+   "w": 0.4349,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 2.22,
+   "w": 2.3716,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 2.373,
+   "w": 0.3589,
+   "cls": "chalcogen",
+   "met": true
+  },
+  {
+   "D": 2.0,
+   "w": 0.795,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 2.0,
+   "w": 0.6114,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 2.0,
+   "w": 1.7039,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 1.1008,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 3.7202,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 0.0292,
+   "cls": "chalcogen",
+   "met": true
+  },
+  {
+   "D": 3.0,
+   "w": 1.5486,
+   "cls": "chalcogen",
+   "met": true
+  },
+  {
+   "D": 3.0,
+   "w": 1.1895,
+   "cls": "chalcogen",
+   "met": true
+  },
+  {
+   "D": 3.0,
+   "w": 0.1882,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 1.205,
+   "cls": "chalcogen",
+   "met": true
+  },
+  {
+   "D": 3.0,
+   "w": 0.9132,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 1.4417,
+   "cls": "chalcogen",
+   "met": true
+  },
+  {
+   "D": 3.0,
+   "w": 4.478,
+   "cls": "chalcogen",
+   "met": true
+  },
+  {
+   "D": 3.0,
+   "w": 0.4575,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 0.7331,
+   "cls": "chalcogen",
+   "met": true
+  },
+  {
+   "D": 3.0,
+   "w": 3.7758,
+   "cls": "chalcogen",
+   "met": true
+  },
+  {
+   "D": 3.0,
+   "w": 0.4638,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 1.8286,
+   "cls": "chalcogen",
+   "met": true
+  },
+  {
+   "D": 3.0,
+   "w": 0.267,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 1.9041,
+   "cls": "chalcogen",
+   "met": true
+  },
+  {
+   "D": 3.0,
+   "w": 2.0896,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 3.7677,
+   "cls": "chalcogen",
+   "met": true
+  },
+  {
+   "D": 3.0,
+   "w": 3.4652,
+   "cls": "chalcogen",
+   "met": true
+  },
+  {
+   "D": 3.0,
+   "w": 0.3773,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 0.1396,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 0.5292,
+   "cls": "chalcogen",
+   "met": false
+  },
+  {
+   "D": 3.0,
+   "w": 2.4461,
+   "cls": "chalcogen",
+   "met": true
+  },
+  {
+   "D": 3.0,
+   "w": 1.2625,
+   "cls": "chalcogen",
+   "met": true
+  },
+  {
+   "D": 3.0,
+   "w": 1.7765,
+   "cls": "chalcogen",
+   "met": false
+  }
+ ],
+ "baseline": {
+  "pooled": {
+   "density_r2": 0.181,
+   "D_r2": 0.098,
+   "both_r2": 0.198,
+   "dR2": 0.017,
+   "F": 7.1,
+   "df": 331
+  },
+  "chalcogen": {
+   "density_r2": 0.184,
+   "D_r2": 0.293,
+   "both_r2": 0.33,
+   "dR2": 0.146,
+   "F": 23.3,
+   "df": 107
+  },
+  "halide": {
+   "density_r2": 0.162,
+   "D_r2": 0.055,
+   "both_r2": 0.169,
+   "dR2": 0.007,
+   "F": 0.9,
+   "df": 108
+  },
+  "oxide": {
+   "density_r2": 0.159,
+   "D_r2": 0.024,
+   "both_r2": 0.163,
+   "dR2": 0.004,
+   "F": 0.5,
+   "df": 110
+  }
+ }
+}

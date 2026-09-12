@@ -1,0 +1,50 @@
+{
+ "total_cifs": 521901,
+ "indexed": 162587,
+ "skips": {
+  "no framework metal": 205706,
+  "anion class not defined": 148440,
+  "unreadable": 3099,
+  "too many metal centres": 2069
+ },
+ "dtop": {
+  "0": 127436,
+  "1": 8454,
+  "2": 6907,
+  "3": 19790
+ },
+ "by_class": {
+  "oxide": {
+   "n": 111324,
+   "dtop": {
+    "0": 86469,
+    "1": 5904,
+    "2": 4055,
+    "3": 14896
+   }
+  },
+  "halide": {
+   "n": 37625,
+   "dtop": {
+    "0": 33200,
+    "1": 1732,
+    "2": 1325,
+    "3": 1368
+   }
+  },
+  "chalcogen": {
+   "n": 13638,
+   "dtop": {
+    "0": 7767,
+    "1": 818,
+    "2": 1527,
+    "3": 3526
+   }
+  }
+ },
+ "frac_nonzero": 16561,
+ "nmetal_median": 4,
+ "repeat_compositions": 11982,
+ "repeat_disagree": 617,
+ "disagree_same_nsite": 263
+}

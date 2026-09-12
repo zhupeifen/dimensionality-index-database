@@ -1,0 +1,28 @@
+{
+ "order": [
+  "different density",
+  "polymorphism",
+  "index instability",
+  "other"
+ ],
+ "counts": [
+  410,
+  122,
+  51,
+  29
+ ],
+ "frac_above": [
+  10.9,
+  13.6,
+  11.1,
+  16.7
+ ],
+ "n_struct": [
+  2118,
+  338,
+  468,
+  72
+ ],
+ "baseline_above": 3.2,
+ "total": 612
+}

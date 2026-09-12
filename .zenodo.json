@@ -1,0 +1,33 @@
+{
+  "title": "Sublattice dimensionality across the Crystallography Open Database: indexed database, code and computed results",
+  "upload_type": "dataset",
+  "description": "The indexed database and the code behind the database paper on sublattice dimensionality. One record per structure for all 521,901 entries of the Crystallography Open Database bulk archive, of which 162,587 carry a computed index, giving the index itself, the integer periodic rank, the fractional term, the bridging anion class and the counts of metal centres and bridges. Also included: the whole-network comparison run on a stratified random sample rather than on a label-carrying set, the single-point electronic-structure results relating valence bandwidth to the index across a stratified sample of 360 structures, the analysis of compositions whose own depositions disagree, and every figure script. Structures are identified by Crystallography Open Database entry number rather than redistributed.",
+  "creators": [
+    {
+      "name": "Zhu, Peifen",
+      "affiliation": "University of Missouri",
+      "orcid": "0000-0002-5269-541X"
+    }
+  ],
+  "keywords": [
+    "dimensionality",
+    "crystal structure",
+    "Crystallography Open Database",
+    "sublattice",
+    "descriptor",
+    "high-throughput screening",
+    "electronic structure",
+    "bandwidth"
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "language": "eng",
+  "related_identifiers": [
+    {
+      "identifier": "10.1107/S0021889809016690",
+      "relation": "cites",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    }
+  ]
+}
