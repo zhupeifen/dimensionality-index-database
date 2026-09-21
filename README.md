@@ -73,6 +73,12 @@ Fields per record:
 | `setup_bandwidth_scale.py` | writes the single-point inputs for the stratified sample |
 | `analyze_bw_scale.py` | band edges and widths from EIGENVAL, per spin channel |
 | `export_polyhedra.py` | coordination polyhedra and repeat directions for the Fig. 1 panels |
+| `composition_baseline.py` | how far composition alone predicts the rank, against the index |
+| `cutoff_sensitivity.py` | re-indexes a stratified sample at scaled bridging cutoffs |
+| `anion_choice.py` | indexes the two-anion structures on each class in turn |
+| `bandwidth_ci.py` | analytic and bootstrap intervals on the bandwidth slopes |
+| `layered_query.py` | the worked query for corroborated layered compositions |
+| `exfoliable_overlap.py` | overlap with the Mounet exfoliable set, by COD entry number |
 
 ### data
 
@@ -81,7 +87,7 @@ Fields per record:
 | `cod_dimensionality.jsonl.gz` | the indexed database, one record per structure |
 | `npj_stats.json` | totals, skip reasons and the rank distribution by anion class |
 | `npj_figdata.json` | panel data for Fig. 2 |
-| `npj_bymetal.json` | rank distribution per framework metal, Fig. 3 |
+| `npj_bymetal.json` | rank distribution per framework metal, Fig. 3 and Supplementary Table S6 |
 | `npj_bw.json` | bandwidth against the index, Fig. 4 |
 | `bw_scale_results.json` | per-structure band widths, gaps and k-point counts |
 | `npj_disagreements.json` | compositions whose depositions disagree, Fig. 5 |
@@ -89,6 +95,11 @@ Fields per record:
 | `wholenet_scale.json` | the per-structure whole-network comparison |
 | `npj_panels.json` | polyhedra, cell edges and lattice for the Fig. 1 structures |
 | `baseline_scale.json` | the density and stoichiometric baselines |
+| `composition_baseline.json` | recall and accuracy of the composition-only baseline |
+| `cutoff_sensitivity.json` | ranks moved and distribution shift at +/-5 per cent cutoff |
+| `anion_choice.json` | rank agreement across the anion classes present |
+| `layered_query.json` | the corroborated layered compositions and their counts |
+| `exfoliable_overlap.json` | the Mounet overlap counts |
 
 ### figures
 
@@ -108,10 +119,21 @@ the Crystallography Open Database bulk archive.
     python code/setup_bandwidth_scale.py cod_dimensionality.jsonl <rundir>
     python code/analyze_bw_scale.py <rundir> -o bw_scale_results.json
     python code/export_polyhedra.py npj -o npj_panels.json
+    python code/composition_baseline.py
+    python code/cutoff_sensitivity.py 100 <cod cif root>
+    python code/anion_choice.py 1500 <cod cif root>
+    python code/bandwidth_ci.py
+    python code/layered_query.py
+    python code/exfoliable_overlap.py EE_and_PE_structures.txt
 
 The single-point electronic-structure step needs VASP and is the only part that does not
 run from this archive alone; `setup_bandwidth_scale.py` writes the inputs and
 `analyze_bw_scale.py` reads the EIGENVAL files it produces.
+
+`exfoliable_overlap.py` needs `EE_and_PE_structures.txt` from Mounet *et al.*, Materials
+Cloud, doi:10.24435/materialscloud:2017.0008/v3, which is not redistributed here. It is
+matched on Crystallography Open Database entry number alone, so no structure comparison
+is involved.
 
 ## Limits
 

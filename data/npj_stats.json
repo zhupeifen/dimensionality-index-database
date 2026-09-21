@@ -42,9 +42,11 @@
    }
   }
  },
- "frac_nonzero": 16561,
+ "frac_nonzero": 16644,
  "nmetal_median": 4,
  "repeat_compositions": 11982,
  "repeat_disagree": 617,
- "disagree_same_nsite": 263
+ "disagree_same_nsite": 263,
+ "frac_undefined": 99376,
+ "frac_defined": 63211
 }

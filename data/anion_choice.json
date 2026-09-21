@@ -1,0 +1,30 @@
+{
+ "pool": 148440,
+ "sampled": 1500,
+ "evaluated": 1000,
+ "agree": 952,
+ "agree_pct": 95.2,
+ "differ_pct": 4.8,
+ "spread": {
+  "0": 952,
+  "1": 26,
+  "2": 16,
+  "3": 6
+ },
+ "class_pairs": {
+  "halide+oxide": 580,
+  "chalcogen+oxide": 202,
+  "chalcogen+halide+oxide": 145,
+  "chalcogen+halide": 73
+ },
+ "bridging": {
+  "evaluated": 1000,
+  "agreements_at_rank_zero": 948,
+  "agreements_at_rank_zero_pct": 99.6,
+  "bridge_on_some_class": 260,
+  "bridge_pct": 26.0,
+  "rank_choice_dependent": 48,
+  "rank_choice_dependent_pct": 18.5,
+  "note": "every figure in this block shares the one denominator above: the structures indexed on two or more classes"
+ }
+}

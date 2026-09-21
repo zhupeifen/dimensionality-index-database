@@ -1,0 +1,17 @@
+{
+ "mounet_total": 2110,
+ "mounet_cod": 677,
+ "mounet_cod_ee": 416,
+ "indexed_here": 162587,
+ "twod_here": 6907,
+ "mounet_cod_indexed_here": 409,
+ "rank_of_mounet_here": {
+  "0": 67,
+  "1": 43,
+  "2": 271,
+  "3": 28
+ },
+ "overlap": 271,
+ "overlap_pct_of_twod": 3.9,
+ "overlap_pct_of_mounet": 40.0
+}

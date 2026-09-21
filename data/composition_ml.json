@@ -1,0 +1,66 @@
+{
+ "n": 161819,
+ "folds": 5,
+ "seed": 20260914,
+ "n_compositions": 138859,
+ "n_features": 101,
+ "n_elements": 97,
+ "model": "HistGradientBoostingClassifier, balanced sample weights",
+ "scoring": "5-fold cross-validation grouped by composition, out of sample",
+ "random_split_accuracy_pct": 86.9,
+ "random_split_balanced_pct": 79.3,
+ "random_split_per_rank_recall": {
+  "0": 88.8,
+  "1": 69.8,
+  "2": 71.3,
+  "3": 87.4
+ },
+ "accuracy_pct": 85.8,
+ "balanced_accuracy_pct": 75.8,
+ "commonest_rank_pct": 78.4,
+ "per_rank": {
+  "0": {
+   "n": 126920,
+   "recalled": 112165,
+   "recall_pct": 88.4
+  },
+  "1": {
+   "n": 8438,
+   "recalled": 5561,
+   "recall_pct": 65.9
+  },
+  "2": {
+   "n": 6837,
+   "recalled": 4340,
+   "recall_pct": 63.5
+  },
+  "3": {
+   "n": 19624,
+   "recalled": 16777,
+   "recall_pct": 85.5
+  }
+ },
+ "extended_recall_pct": 76.4,
+ "ranks_ever_predicted": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "lookup_accuracy_pct": 80.2,
+ "lookup_per_rank": {
+  "0": 96.4,
+  "1": 0.0,
+  "2": 0.0,
+  "3": 37.7
+ },
+ "ceiling": {
+  "indexed": 162587,
+  "compositions_disagreeing": 617,
+  "depositions_affected": 3016,
+  "necessarily_wrong": 844,
+  "ceiling_overall_pct": 99.5,
+  "ceiling_on_affected_pct": 72.0,
+  "note": "a one-label-per-formula model cannot exceed these, whatever features or estimator it uses"
+ }
+}

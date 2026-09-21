@@ -2117,5 +2117,57 @@
    "F": 0.5,
    "df": 110
   }
+ },
+ "ci": {
+  "pooled": {
+   "n": 334,
+   "slope": 0.218,
+   "se": 0.036,
+   "lo": 0.147,
+   "hi": 0.289,
+   "boot_lo": 0.143,
+   "boot_hi": 0.295,
+   "spans_zero": false
+  },
+  "insulating": {
+   "n": 248,
+   "slope": 0.141,
+   "se": 0.031,
+   "lo": 0.08,
+   "hi": 0.201,
+   "boot_lo": 0.078,
+   "boot_hi": 0.213,
+   "spans_zero": false
+  },
+  "chalcogen": {
+   "n": 110,
+   "slope": 0.444,
+   "se": 0.066,
+   "lo": 0.314,
+   "hi": 0.574,
+   "boot_lo": 0.297,
+   "boot_hi": 0.601,
+   "spans_zero": false
+  },
+  "halide": {
+   "n": 111,
+   "slope": 0.157,
+   "se": 0.062,
+   "lo": 0.035,
+   "hi": 0.278,
+   "boot_lo": 0.051,
+   "boot_hi": 0.273,
+   "spans_zero": false
+  },
+  "oxide": {
+   "n": 113,
+   "slope": 0.082,
+   "se": 0.049,
+   "lo": -0.015,
+   "hi": 0.178,
+   "boot_lo": -0.038,
+   "boot_hi": 0.184,
+   "spans_zero": true
+  }
  }
 }

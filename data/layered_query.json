@@ -1,0 +1,2590 @@
+{
+ "n_2d": 6907,
+ "n_firm": 5331,
+ "n_repeat": 564,
+ "n_unanimous": 490,
+ "by_class": {
+  "oxide": 227,
+  "halide": 166,
+  "chalcogen": 97
+ },
+ "examples": [
+  {
+   "formula": "CaV3O7",
+   "depositions": 20,
+   "cls": "oxide"
+  },
+  {
+   "formula": "MgMnSiO4",
+   "depositions": 20,
+   "cls": "oxide"
+  },
+  {
+   "formula": "FeH12C2(NCl2)2",
+   "depositions": 19,
+   "cls": "halide"
+  },
+  {
+   "formula": "H8PbC4(N3Cl2)2",
+   "depositions": 18,
+   "cls": "halide"
+  },
+  {
+   "formula": "CdI2",
+   "depositions": 17,
+   "cls": "halide"
+  },
+  {
+   "formula": "CaIrO3",
+   "depositions": 16,
+   "cls": "oxide"
+  },
+  {
+   "formula": "KAl2(SiO3)4",
+   "depositions": 15,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Al2Si2H4O9",
+   "depositions": 14,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Sn3.9264Se4",
+   "depositions": 13,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "Al2Si2O9",
+   "depositions": 11,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Cu2CO5",
+   "depositions": 11,
+   "cls": "oxide"
+  },
+  {
+   "formula": "LiScSiO4",
+   "depositions": 11,
+   "cls": "oxide"
+  },
+  {
+   "formula": "KAs4(NO2)3",
+   "depositions": 10,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Sn3H32C12Se7N2",
+   "depositions": 10,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "Zn2P2O7",
+   "depositions": 10,
+   "cls": "oxide"
+  },
+  {
+   "formula": "BaZnF4",
+   "depositions": 9,
+   "cls": "halide"
+  },
+  {
+   "formula": "H24PbC8(I2N)2",
+   "depositions": 9,
+   "cls": "halide"
+  },
+  {
+   "formula": "HgI",
+   "depositions": 9,
+   "cls": "halide"
+  },
+  {
+   "formula": "Li2MnO3",
+   "depositions": 9,
+   "cls": "oxide"
+  },
+  {
+   "formula": "MoS2",
+   "depositions": 9,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "AlO3",
+   "depositions": 8,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Ca3Mn2O7",
+   "depositions": 8,
+   "cls": "oxide"
+  },
+  {
+   "formula": "FeCl2",
+   "depositions": 8,
+   "cls": "halide"
+  },
+  {
+   "formula": "KAl3Si3HO12",
+   "depositions": 8,
+   "cls": "oxide"
+  },
+  {
+   "formula": "LiCoPO4",
+   "depositions": 8,
+   "cls": "oxide"
+  }
+ ],
+ "all": [
+  {
+   "formula": "CaV3O7",
+   "depositions": 20,
+   "cls": "oxide"
+  },
+  {
+   "formula": "MgMnSiO4",
+   "depositions": 20,
+   "cls": "oxide"
+  },
+  {
+   "formula": "FeH12C2(NCl2)2",
+   "depositions": 19,
+   "cls": "halide"
+  },
+  {
+   "formula": "H8PbC4(N3Cl2)2",
+   "depositions": 18,
+   "cls": "halide"
+  },
+  {
+   "formula": "CdI2",
+   "depositions": 17,
+   "cls": "halide"
+  },
+  {
+   "formula": "CaIrO3",
+   "depositions": 16,
+   "cls": "oxide"
+  },
+  {
+   "formula": "KAl2(SiO3)4",
+   "depositions": 15,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Al2Si2H4O9",
+   "depositions": 14,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Sn3.9264Se4",
+   "depositions": 13,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "Al2Si2O9",
+   "depositions": 11,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Cu2CO5",
+   "depositions": 11,
+   "cls": "oxide"
+  },
+  {
+   "formula": "LiScSiO4",
+   "depositions": 11,
+   "cls": "oxide"
+  },
+  {
+   "formula": "KAs4(NO2)3",
+   "depositions": 10,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Sn3H32C12Se7N2",
+   "depositions": 10,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "Zn2P2O7",
+   "depositions": 10,
+   "cls": "oxide"
+  },
+  {
+   "formula": "BaZnF4",
+   "depositions": 9,
+   "cls": "halide"
+  },
+  {
+   "formula": "H24PbC8(I2N)2",
+   "depositions": 9,
+   "cls": "halide"
+  },
+  {
+   "formula": "HgI",
+   "depositions": 9,
+   "cls": "halide"
+  },
+  {
+   "formula": "Li2MnO3",
+   "depositions": 9,
+   "cls": "oxide"
+  },
+  {
+   "formula": "MoS2",
+   "depositions": 9,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "AlO3",
+   "depositions": 8,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Ca3Mn2O7",
+   "depositions": 8,
+   "cls": "oxide"
+  },
+  {
+   "formula": "FeCl2",
+   "depositions": 8,
+   "cls": "halide"
+  },
+  {
+   "formula": "KAl3Si3HO12",
+   "depositions": 8,
+   "cls": "oxide"
+  },
+  {
+   "formula": "LiCoPO4",
+   "depositions": 8,
+   "cls": "oxide"
+  },
+  {
+   "formula": "NiO2",
+   "depositions": 8,
+   "cls": "oxide"
+  },
+  {
+   "formula": "RbAlF4",
+   "depositions": 8,
+   "cls": "halide"
+  },
+  {
+   "formula": "SnO",
+   "depositions": 8,
+   "cls": "oxide"
+  },
+  {
+   "formula": "CoO2",
+   "depositions": 7,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Li3ThF7",
+   "depositions": 7,
+   "cls": "halide"
+  },
+  {
+   "formula": "MgTiO3",
+   "depositions": 7,
+   "cls": "oxide"
+  },
+  {
+   "formula": "NbSe2",
+   "depositions": 7,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "PbI2",
+   "depositions": 7,
+   "cls": "halide"
+  },
+  {
+   "formula": "Sr2RuO4",
+   "depositions": 7,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Sr3LaMn2O8",
+   "depositions": 7,
+   "cls": "oxide"
+  },
+  {
+   "formula": "SrLaCoO4",
+   "depositions": 7,
+   "cls": "oxide"
+  },
+  {
+   "formula": "TaS2",
+   "depositions": 7,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "Cs1.78Al0.08Fe7.84Si6.08O24",
+   "depositions": 6,
+   "cls": "oxide"
+  },
+  {
+   "formula": "H24PbC8(Br2N)2",
+   "depositions": 6,
+   "cls": "halide"
+  },
+  {
+   "formula": "H40Pb3C12(I5N2)2",
+   "depositions": 6,
+   "cls": "halide"
+  },
+  {
+   "formula": "H48PbC20(I2N)2",
+   "depositions": 6,
+   "cls": "halide"
+  },
+  {
+   "formula": "KAl3(SiO4)3",
+   "depositions": 6,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Li0.24Mg0.84Mn0.08Al19.48Zn0.08Fe6.88Si7.52O48",
+   "depositions": 6,
+   "cls": "oxide"
+  },
+  {
+   "formula": "NbS2",
+   "depositions": 6,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "BaCoS2",
+   "depositions": 5,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "CsAgBiH24C8Br7N2",
+   "depositions": 5,
+   "cls": "halide"
+  },
+  {
+   "formula": "CuSbS2",
+   "depositions": 5,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "GaSe",
+   "depositions": 5,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "H14PbC4(Br2N)2",
+   "depositions": 5,
+   "cls": "halide"
+  },
+  {
+   "formula": "H18PbC14N2(Cl2F)2",
+   "depositions": 5,
+   "cls": "halide"
+  },
+  {
+   "formula": "Na1.5Ti3S6",
+   "depositions": 5,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "NaCrS2",
+   "depositions": 5,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "BaNb6O17",
+   "depositions": 4,
+   "cls": "oxide"
+  },
+  {
+   "formula": "BaTiMn2(SiO5)2",
+   "depositions": 4,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Bi2Se3",
+   "depositions": 4,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "Bi2Te2S",
+   "depositions": 4,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "Bi2Te3",
+   "depositions": 4,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "CdH28C18(NCl2)2",
+   "depositions": 4,
+   "cls": "halide"
+  },
+  {
+   "formula": "CoCl2",
+   "depositions": 4,
+   "cls": "halide"
+  },
+  {
+   "formula": "CoPNO5",
+   "depositions": 4,
+   "cls": "oxide"
+  },
+  {
+   "formula": "CsCoF4",
+   "depositions": 4,
+   "cls": "halide"
+  },
+  {
+   "formula": "CsNb2BiO7",
+   "depositions": 4,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Fe4SiO9",
+   "depositions": 4,
+   "cls": "oxide"
+  },
+  {
+   "formula": "H16PbC6(I2N)2",
+   "depositions": 4,
+   "cls": "halide"
+  },
+  {
+   "formula": "H20PbC14(I2N)2",
+   "depositions": 4,
+   "cls": "halide"
+  },
+  {
+   "formula": "H28PbC10(I2N)2",
+   "depositions": 4,
+   "cls": "halide"
+  },
+  {
+   "formula": "H30Pb2C9Br7N3",
+   "depositions": 4,
+   "cls": "halide"
+  },
+  {
+   "formula": "H36PbC14(I2N)2",
+   "depositions": 4,
+   "cls": "halide"
+  },
+  {
+   "formula": "H40PbC16(I2N)2",
+   "depositions": 4,
+   "cls": "halide"
+  },
+  {
+   "formula": "HgBr2",
+   "depositions": 4,
+   "cls": "halide"
+  },
+  {
+   "formula": "K2CuF4",
+   "depositions": 4,
+   "cls": "halide"
+  },
+  {
+   "formula": "LiMnPO4",
+   "depositions": 4,
+   "cls": "oxide"
+  },
+  {
+   "formula": "MgPb2WO6",
+   "depositions": 4,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Mn16Sb16H88C47.976S40N24",
+   "depositions": 4,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "Na3U2.9988O10.476",
+   "depositions": 4,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Ni2P2O7",
+   "depositions": 4,
+   "cls": "oxide"
+  },
+  {
+   "formula": "NiI2",
+   "depositions": 4,
+   "cls": "halide"
+  },
+  {
+   "formula": "SnH12C7(I2N)2",
+   "depositions": 4,
+   "cls": "halide"
+  },
+  {
+   "formula": "Ta2NiSe5",
+   "depositions": 4,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "Te3As2",
+   "depositions": 4,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "WS2",
+   "depositions": 4,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "Al(SiO3)2",
+   "depositions": 3,
+   "cls": "oxide"
+  },
+  {
+   "formula": "AlH4NF4",
+   "depositions": 3,
+   "cls": "halide"
+  },
+  {
+   "formula": "As2S3",
+   "depositions": 3,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "As2Se3",
+   "depositions": 3,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "Ba2Ca2Cu3Hg1O8.16",
+   "depositions": 3,
+   "cls": "oxide"
+  },
+  {
+   "formula": "CaU6O30",
+   "depositions": 3,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Cd3H48C20(N2Cl5)2",
+   "depositions": 3,
+   "cls": "halide"
+  },
+  {
+   "formula": "CdC16N2(Cl2F)2",
+   "depositions": 3,
+   "cls": "halide"
+  },
+  {
+   "formula": "CdH14C4(NCl2)2",
+   "depositions": 3,
+   "cls": "halide"
+  },
+  {
+   "formula": "Co2H11C10NO9",
+   "depositions": 3,
+   "cls": "oxide"
+  },
+  {
+   "formula": "CoHO2",
+   "depositions": 3,
+   "cls": "oxide"
+  },
+  {
+   "formula": "CrCu(PS3)2",
+   "depositions": 3,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "CuBi(PSe3)2",
+   "depositions": 3,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "CuBiS2",
+   "depositions": 3,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "CuH32C20(NCl2)2",
+   "depositions": 3,
+   "cls": "halide"
+  },
+  {
+   "formula": "Fe2CO5",
+   "depositions": 3,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Fe5H16(C8O9)2",
+   "depositions": 3,
+   "cls": "oxide"
+  },
+  {
+   "formula": "FeBr2",
+   "depositions": 3,
+   "cls": "halide"
+  },
+  {
+   "formula": "FeCl3",
+   "depositions": 3,
+   "cls": "halide"
+  },
+  {
+   "formula": "GeSe",
+   "depositions": 3,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "H11PbC5I4N3",
+   "depositions": 3,
+   "cls": "halide"
+  },
+  {
+   "formula": "H14PbC4I4(BrN)2",
+   "depositions": 3,
+   "cls": "halide"
+  },
+  {
+   "formula": "H16PbC6(Br2N)2",
+   "depositions": 3,
+   "cls": "halide"
+  },
+  {
+   "formula": "H18PbC14I4(NCl)2",
+   "depositions": 3,
+   "cls": "halide"
+  },
+  {
+   "formula": "H20PbC10I4(NF2)2",
+   "depositions": 3,
+   "cls": "halide"
+  },
+  {
+   "formula": "H20PbC8(Br2N)2",
+   "depositions": 3,
+   "cls": "halide"
+  },
+  {
+   "formula": "H21Pb2C7Br7N4",
+   "depositions": 3,
+   "cls": "halide"
+  },
+  {
+   "formula": "H22Pb2C7Br7N3",
+   "depositions": 3,
+   "cls": "halide"
+  },
+  {
+   "formula": "H22PbC16Br4(NF)2",
+   "depositions": 3,
+   "cls": "halide"
+  },
+  {
+   "formula": "H24PbC12I4(NF2)2",
+   "depositions": 3,
+   "cls": "halide"
+  },
+  {
+   "formula": "H29Pb2C9Br7N4",
+   "depositions": 3,
+   "cls": "halide"
+  },
+  {
+   "formula": "H30Pb2C9I7N3",
+   "depositions": 3,
+   "cls": "halide"
+  },
+  {
+   "formula": "H36Pb3C10(I5N2)2",
+   "depositions": 3,
+   "cls": "halide"
+  },
+  {
+   "formula": "H9PbC6Br4N3",
+   "depositions": 3,
+   "cls": "halide"
+  },
+  {
+   "formula": "Hg(SbS2)4",
+   "depositions": 3,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "InS",
+   "depositions": 3,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "K0.4Ba0.04Na3.52Ca0.04Mg0.024Ti0.028Mn0.008Al11.84Fe0.04Si12.04O48",
+   "depositions": 3,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Li0.08Mg1Al17.95Zn0.06Fe3.25Si7.52H3O48",
+   "depositions": 3,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Li0.112Mg0.766Al17.89Zn0.092Fe3.39Si7.576H3O48",
+   "depositions": 3,
+   "cls": "oxide"
+  },
+  {
+   "formula": "LiCoO2",
+   "depositions": 3,
+   "cls": "oxide"
+  },
+  {
+   "formula": "LiV2O5",
+   "depositions": 3,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Mg5.2Al16Fe2.8Si8O56",
+   "depositions": 3,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Mn2Sb2H11C6S5N3",
+   "depositions": 3,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "MnH10C2(NF2)2",
+   "depositions": 3,
+   "cls": "halide"
+  },
+  {
+   "formula": "MnPH6NO5",
+   "depositions": 3,
+   "cls": "oxide"
+  },
+  {
+   "formula": "MoH2C2NO3",
+   "depositions": 3,
+   "cls": "oxide"
+  },
+  {
+   "formula": "MoH4O5",
+   "depositions": 3,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Na2UO4",
+   "depositions": 3,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Na5Al3F14",
+   "depositions": 3,
+   "cls": "halide"
+  },
+  {
+   "formula": "NaMnO2",
+   "depositions": 3,
+   "cls": "oxide"
+  },
+  {
+   "formula": "NaPb2C2O7",
+   "depositions": 3,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Ni(AgO)2",
+   "depositions": 3,
+   "cls": "oxide"
+  },
+  {
+   "formula": "NiBr2",
+   "depositions": 3,
+   "cls": "halide"
+  },
+  {
+   "formula": "NiCl2",
+   "depositions": 3,
+   "cls": "halide"
+  },
+  {
+   "formula": "PH16PbC5Br4N",
+   "depositions": 3,
+   "cls": "halide"
+  },
+  {
+   "formula": "Pb2Br5N",
+   "depositions": 3,
+   "cls": "halide"
+  },
+  {
+   "formula": "Sn3H36C10(Br5N2)2",
+   "depositions": 3,
+   "cls": "halide"
+  },
+  {
+   "formula": "SnH11C5I4N3",
+   "depositions": 3,
+   "cls": "halide"
+  },
+  {
+   "formula": "SnH12C2(I2N3)2",
+   "depositions": 3,
+   "cls": "halide"
+  },
+  {
+   "formula": "Sr2IrO4",
+   "depositions": 3,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Sr5Nb5O17",
+   "depositions": 3,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Te2Mo",
+   "depositions": 3,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "TiNbHO5",
+   "depositions": 3,
+   "cls": "oxide"
+  },
+  {
+   "formula": "TiS2",
+   "depositions": 3,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "TiSe2",
+   "depositions": 3,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "TiTe2",
+   "depositions": 3,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "TlAg3Te2",
+   "depositions": 3,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "TlInS2",
+   "depositions": 3,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "UO4",
+   "depositions": 3,
+   "cls": "oxide"
+  },
+  {
+   "formula": "UTeAs",
+   "depositions": 3,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "V2CoH8C10(NO3)2",
+   "depositions": 3,
+   "cls": "oxide"
+  },
+  {
+   "formula": "V4H12C3(NO5)2",
+   "depositions": 3,
+   "cls": "oxide"
+  },
+  {
+   "formula": "ZrSiTe",
+   "depositions": 3,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "Ag2H4C10I3",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "Ag2SbH9C2S3N2",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "Ag3PH4C7O5",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "AgBiH28C8(Br2N)4",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "AgBiH48C16(Br2N)4",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "AgCO2",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "AgH8C5(BrN)2",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "AgMoH28C8(NCl2)4",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "AgSbO6",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Al0.93441Co2.04471C0.46722O8.99286",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Al2Si4O11",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "AlCl3",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "AlNF4",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "As2H2N2O3",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "AsI3",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "AsO2",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Ba2CaTl2(CuO4)2",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Ba2MnAl2CoF14",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "Ba2MnAl2CuF14",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "Ba2NaCu3S5",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "Ba2PbO4",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Ba3In2O6",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Ba3Zr2S7",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "Ba4In2O7",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Ba4Ir3O10",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "BaCdSnS4",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "BaCoF4",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "BaLaCuBiPbO6",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "BaNi2(PO4)2",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "BaTi4Bi4O15",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "BaTiFe2(SiO5)2",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "BaV2(NiO4)2",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Bi2Te2Pb2S3",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "Bi2Te2PbS2",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "Bi2TeSe2",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "BiI3",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "Ca2.04V8O30",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Ca2AlPbF9",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "Ca2Fe3P3O17",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Ca3.56Ce0.44Ti2.8Nb5.2O24",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Ca4.44Co3.56Ge4O16",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "CaAl4(SiO3)8",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "CaAl4(SiO6)2",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "CaPtO3",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "CaU6(H11O15)2",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Cd2H5C7NO6",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Cd2H6C5NCl5",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "CdBr2",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "CdCl2",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "CdH12C4N2(ClF)4",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "CdH14C4BrN2Cl5",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "CdH24C16(NCl2)2",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "CdH28C10(NCl2)2",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "CdPS3",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "Co2H10C11(NO4)2",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Co2H11C11NO8",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Co3H10(C8O5)2",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "CoBr2",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "Cr4Cd(NO8)2",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "CrAg(PS3)2",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "Cs0.16Mg0.28Al1.72Fe0.2Si7.8O20",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Cs2Hg(SbS2)4",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "Cs2U(PdSe2)3",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "Cs2W7O22",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "CsGdHgSe3",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "CsH24Pb2C8Br7N2",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "CsHgSbSe3",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "CsSmHgSe3",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "CsUV3O11",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "CsUVO6",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "CsZn2B3O7",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Cu11H63C29I17N6",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "Cu2AsH7PbO9",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Cu2H2C2N3Cl2",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "Cu2H2CO5",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Cu2H3NO6",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Cu2Mo2H8C10N2O11",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Cu2NO6",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Cu3H16C8I3BrN2",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "Cu5(Si2O7)2",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "CuAsPtS2",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "CuBiH56C24(I2N)4",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "CuH14C4(NCl2)2",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "CuPH7C7O6",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "CuTe",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "Dy2.025Bi6.975O13.5",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Dy4(B2O5)3",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "DyAsRuO",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "ErTlS2",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "Eu2.025Bi6.975O13.5",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Eu2Cu3H42C66(N3O5)6",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "EuH11C17O6",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Fe2H28.8C4N4Cl8",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "Fe9H29C7S10N7",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "FePS3",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "Gd(CO3)2",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Gd2.025Bi6.975O13.5",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "GdCrMo6H10C12(NO18)2",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "GeH14C4(I3N)2",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "GeH18C14I4(NCl)2",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "GeH18C14I4(NF)2",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "GeI2",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "H103.9944Pb8C71.9992Br32N23.9992",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "H103.9944Pb8C71.9992N23.9992Cl32",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "H10PbC3(Br2N3)2",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "H11PbC4Br4N5",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "H11PbC5Br4N3",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "H12PbC7(I2N)2",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "H14PbC2(BrN)4",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "H14PbC4(I3N)2",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "H14PbC6Br4(NF3)2",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "H16Pb2C7Br7N3",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "H16Pb2C7I7N3",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "H16PbC5(Br2N)2",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "H18PbC14I4(BrN)2",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "H18PbC14I4(NF)2",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "H18PbC6(Br2N)2",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "H18PbC6(NCl2)2",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "H20Pb3C20I10(BrN)4",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "H20PbC14(NCl2)2",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "H20PbC8(I2N)2",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "H20PbC8(NCl2)2",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "H20PbC8Br4(NCl2)2",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "H22Pb3C18I10(N2F)2",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "H22Pb3C8(I5N2)2",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "H22PbC16I4(BrN)2",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "H22PbC16I4(NCl)2",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "H24PbC10(Br2N)2",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "H24PbC16(NCl2)2",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "H24PbC8(NCl2)2",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "H28Pb4C9I13N5",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "H28PbC14(Br2N)2",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "H30PbC12(I3N)2",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "H32Pb3C8(Br5N2)2",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "H32Pb3C8(N2Cl5)2",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "H32PbC12(I2N)2",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "H34Pb3C10(I3N)4",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "H38Pb2C13I7N3",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "H44Pb3C14(I5N2)2",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "H44PbC18(I2N)2",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "H45Pb2C32(I2N)4",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "H4WC5NO3",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "H56PbC24(I2N)2",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "H5PbCI2N",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "H64PbC28(I2N)2",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "H72PbC32(I2N)2",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "H80PbC36(I2N)2",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "H9PbC4N3Cl4",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "Hg3(PS4)2",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "HgAs2PbS5",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "In3H10C7Se5N",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "InI",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "K(NiSe)2",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "K1.6Mg0.8Ti3.2O8",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "K1.6Ti3.2Zn0.8O8",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "K1.84Na0.14Mg2.22Ti0.36Al2.68Fe2.7Si5.44O24",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "K1.988Ba0.012Mg0.1994Ti0.012Mn0.1238Al1.7798V3.392Fe0.3Si6.3O24",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "K2.4Na1.48Mg0.16Ti0.08Al11.2Fe0.4Si12.16O48",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "K2.76Na0.21Mg6.24Al3.00006Fe32.76Si50.99994O168",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "K2NiF4",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "K3.1Ba0.2Ca1.2Ti7.8Mn1.78Nb0.2Si16O65.8",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "K3.416Ba1.812Na4.392Ti8Mn0.986Si16O65.972",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "K3.52Na0.44Mg0.08Al11.36Fe0.24Si12.32H8O48",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "K3.56Rb0.04Na0.4Mn0.08Al11.52Fe0.08Si12.32H16O48",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "K3.6Ba0.04Na0.28Mg0.16Ti0.16Al11.2Fe0.32Si12.16H8O48",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "K3.6Na0.28Mg0.64Ti0.08Al9.6Fe0.88Si12.8H8O48",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "K3.904Ba0.092Mg4.32Ti1.524Mn0.036Al5.456Cr0.012Fe5.148Si11.36O48",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "K3Al8.73Fe0.27Si9H3O36",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "K3Fe3(AsO4)4",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "K3TaTi5O14",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "K3Ti5NbO14",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "K3Zn2F7",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "K4Al11.52Fe0.48Si12H4O48",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "K4Mg4.644Ti1.104Al4.832Fe5.568Si11.168O48",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "KAgC2(SN)2",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "KCa2Ta3O10",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "KFeCuS2",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "KLaCO4",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "KPrF4",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "KTiNbO5",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "KU2As2O19",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "KUAsO9",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "La2.025Bi6.975O13.5",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "La2.7Bi6.3O12.42",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "La2GeI2",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "La8H112.02C66N12O68",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "LaP3H7C3NO8",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "LaP3H9C3NO9",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Li0.112Mg0.712Al17.964Zn0.032Fe3.564Si7.52H3O48",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Li0.12Mg0.72Al17.92Zn0.04Fe3.6Si7.52O48",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Li0.16Mg0.28Al1.72Fe0.2Si7.8O20",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Li1.44Co3O6",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Li2.1Ti3S6",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "Li2.7Ti3S6",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "Li2Ca4Be2.32Al14.72Si6.96O48",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Li3.6Fe1.2Ir1.2O6",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Li4ZnIn2F12",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "LiInSiO4",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "LiTiS2",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "Mg0.932Ti0.088Mn0.08Al17.996Zn0.652Fe2.322Si7.216O48",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Mg1.09Al18.116Zn0.648Fe2.616Si7.44O48",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Mg1.36Al16Fe6.64Si20O72",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "MgNb2O6",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Mn2PH2CO7",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Mn3As2H40C12(SN)8",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "Mn3ZnO10",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Mn5H16(C8O9)2",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Mn6H78C44O23",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Mn6P4H2O17",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "MnV2H16C12(N4O3)2",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Mo4H1.44O12",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "MoCl3",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "MoSe2",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "Na1.04H32W8C40N8O24",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Na2Ca3Nb4(AsO6)4",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Na2Cd3Si3O10",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Na2Ti2Si2O9",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Na2Ti3Cl8",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "Na3Co30H150C120N36O171.78",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Na4Nb9(P2O13)3",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Na5Fe3F14",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "Na5U5O18",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Na6Al4Fe(Si4O13)2",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Na6U2As4O19",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "NaAl(MoO4)2",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "NaAlF4",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "NaBiO3",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "NaCrSe2",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "NaErS2",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "NaGdS2",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "NaLuS2",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "NaNb(CuS2)2",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "NaTiS2",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "NaYbS2",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "Nb2CS2",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "Nb6Ag1.5S12",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "NbCoTe2",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "NbFeTe2",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "Nd2.025Bi6.975O13.5",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "NdTe3",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "Ni11.32Sb2Te4",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "Ni2SbTe2",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "Ni3H40C12(N2Cl5)2",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "P(W3O10)2",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Pb9.00006C6O24",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Pb9.0006C6O24",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "PbC16(I2N)2",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "PbC4(NCl2)2",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "PbIF",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "PdSe2",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "Pr2.025Bi6.975O13.5",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Rb0.28Al4H14.88N3.72F16",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "Rb0.4Al4H14.4N3.6F16",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "Rb2Nb3O10",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Rb3Mn2Cl7",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "Rb3Ti5NbO14",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Rb6U5V2O23",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "RbHgSbSe3",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "RbSm(MoO4)2",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "ReSe2",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "Sb16Te3",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "Sb2Te3",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "Sb8Te3",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "SbAsO3",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "ScCl3",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "ScO2",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Sm2.025Bi6.975O13.5",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Sn2H20C9I7N3",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "Sn3H26C14S7N4",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "Sn3S7",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "SnC5(I2N)2",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "SnC8(I2N)2",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "SnGe4(NO)4",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "SnH36C14(I2N)2",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "Sr0.705Bi2.295O3.334",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Sr10.2Eu7.8Cu12O33.904",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Sr18Tl7.38Co18O56",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Sr2.25Bi6.75O12.1998",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Sr2.25Bi6.75O12.201",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Sr2.25Bi6.75O12.3012",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Sr2MnO4",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Sr2VAs2O9",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Sr2VO4",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Sr3W2O9",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Sr4.92La1.08Fe4O14",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Sr4Tl0.5Cu2Pb0.5C1O10",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Sr5Nb5O16",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Sr6Pr3Cu6O17",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Sr7.6Ca0.4Fe4Bi3.54O20",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Sr8Fe4Hg0.865Pb0.865O18",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Sr8Fe4Pb1.5696O18",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Sr8Tl1.9296Fe4O18",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "SrLaFeO4",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "SrLaScO4",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "SrLi2Nb2O7",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "SrNdFeO4",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "SrU2(AsO10)2",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Ta3I7",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "Tb2.025Bi6.975O13.5",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "TcCl3",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "TiBr3",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "TiS2N",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "Tl(NiSe)2",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "U(MoO6)2",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "UAsNO9",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "UCO5",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "UI3",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "UO5",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "UTeN",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "V1P0.17S2",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "V2CoH16C12(N4O3)2",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "V2CuH12C8(N2O3)2",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "V2NiH10C12(NO3)2",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "V2NiH16C12(N4O3)2",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "V6Co3H32C12(N12O11)2",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "V6Ni2H32C40N8O17",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "V6Ni3H32C12(N12O11)2",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "V6Zn3H32C12(N12O11)2",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "VO3",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "WSe2",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "YSiNO2",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Zn1.5743Ga0.48444O2",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Zn2PH6C8NO8",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Zn2Sn2H32C12Se7N6",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "Zn3Cu2(CO6)2",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Zn3H54W12C40N14O41",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "Zn8B10H48C12N4O31",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "ZnAg2C4(SN)4",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "ZnH4CSN",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "ZnH5C2Cl",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "ZnH6C4SN",
+   "depositions": 2,
+   "cls": "chalcogen"
+  },
+  {
+   "formula": "ZnI2",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "ZnPH3(CO2)2",
+   "depositions": 2,
+   "cls": "oxide"
+  },
+  {
+   "formula": "ZrI2",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "ZrNCl",
+   "depositions": 2,
+   "cls": "halide"
+  },
+  {
+   "formula": "ZrSe3",
+   "depositions": 2,
+   "cls": "chalcogen"
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "n": 161819,
+ "indexed_total": 162587,
+ "no_ratio": 768,
+ "lookup_pct": 80.2,
+ "commonest_rank": 0,
+ "commonest_pct": 78.4,
+ "per_rank": {
+  "0": {
+   "recalled": 122363,
+   "n": 126920,
+   "pct": 96.4
+  },
+  "1": {
+   "recalled": 4,
+   "n": 8438,
+   "pct": 0.0
+  },
+  "2": {
+   "recalled": 0,
+   "n": 6837,
+   "pct": 0.0
+  },
+  "3": {
+   "recalled": 7408,
+   "n": 19624,
+   "pct": 37.7
+  }
+ },
+ "extended_recalled": 7412,
+ "extended_n": 34899,
+ "extended_pct": 21.2,
+ "ranks_ever_predicted": [
+  0,
+  1,
+  3
+ ],
+ "by_class": {
+  "chalcogen": {
+   "n": 13415,
+   "pct": 62.3
+  },
+  "halide": {
+   "n": 37439,
+   "pct": 88.3
+  },
+  "oxide": {
+   "n": 110965,
+   "pct": 79.6
+  }
+ }
+}
