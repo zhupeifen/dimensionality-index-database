@@ -2127,7 +2127,8 @@
    "hi": 0.289,
    "boot_lo": 0.143,
    "boot_hi": 0.295,
-   "spans_zero": false
+   "spans_zero": false,
+   "x": "D"
   },
   "insulating": {
    "n": 248,
@@ -2137,7 +2138,8 @@
    "hi": 0.201,
    "boot_lo": 0.078,
    "boot_hi": 0.213,
-   "spans_zero": false
+   "spans_zero": false,
+   "x": "D"
   },
   "chalcogen": {
    "n": 110,
@@ -2147,7 +2149,8 @@
    "hi": 0.574,
    "boot_lo": 0.297,
    "boot_hi": 0.601,
-   "spans_zero": false
+   "spans_zero": false,
+   "x": "D"
   },
   "halide": {
    "n": 111,
@@ -2157,7 +2160,8 @@
    "hi": 0.278,
    "boot_lo": 0.051,
    "boot_hi": 0.273,
-   "spans_zero": false
+   "spans_zero": false,
+   "x": "D"
   },
   "oxide": {
    "n": 113,
@@ -2167,7 +2171,30 @@
    "hi": 0.178,
    "boot_lo": -0.038,
    "boot_hi": 0.184,
-   "spans_zero": true
+   "spans_zero": true,
+   "x": "D"
+  },
+  "pooled_rank": {
+   "n": 334,
+   "slope": 0.208,
+   "se": 0.036,
+   "lo": 0.137,
+   "hi": 0.278,
+   "boot_lo": 0.133,
+   "boot_hi": 0.286,
+   "spans_zero": false,
+   "x": "rank"
+  },
+  "insulating_rank": {
+   "n": 248,
+   "slope": 0.134,
+   "se": 0.031,
+   "lo": 0.074,
+   "hi": 0.194,
+   "boot_lo": 0.073,
+   "boot_hi": 0.206,
+   "spans_zero": false,
+   "x": "rank"
   }
  }
 }
