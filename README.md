@@ -173,7 +173,8 @@ Cells containing more than 90 metal centres are declined rather than evaluated. 
 occupancies are read as each site's majority species, without enumerating orderings;
 37 per cent of indexed structures carry them (95 per cent interval 34 to 40, from a
 random sample of 1,000; partial_occupancy_sample.py), and removing every site below half
-occupancy from the 181 of them that have one changes no integer rank
+occupancy from the 187 of them that have one changes no integer rank in the 181
+that can still be indexed
 (partial_occupancy_test.py); the electronic-structure sample is
 restricted to ordered structures for that reason. The index describes the sublattice it
 is given and makes no claim about the rest of the structure.
