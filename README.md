@@ -6,7 +6,7 @@ entry number rather than redistributed, so everything here can be rejoined to th
 archive without carrying a copy of it.
 
 The companion methods paper, *A sublattice dimensionality index validated against
-deposited metal halides*, defines and validates the index and has its own deposit. This
+deposited halides and chalcogenides* (J. Appl. Cryst., under review), defines and validates the index and has its own deposit, 10.5281/zenodo.22716753. This
 one is the database-scale application.
 
 ## What the index is
@@ -78,6 +78,10 @@ Fields per record:
 | `anion_choice.py` | indexes the competing-anion structures on each class in turn |
 | `anion_choice_dropouts.py` | why sampled "anion class not defined" structures were not evaluated: competing classes, none, or unreadable |
 | `composition_ml.py` | the gradient-boosted composition classifier, cross-validated by composition |
+| `complete_disagreement_records.py` | adds the per-deposition records the Figure 5 input lacked, from the CIFs |
+| `composition_ceiling.py` | the ceiling on any composition-only model, from compositions deposited at more than one rank |
+| `npj_figdata.py` | panel data for Figure 2 |
+| `mksi.py` | builds the Supporting Information tables from the files in data/ |
 | `make_summaries.py` | rebuilds the summary files below from the per-structure data, including the Figure 5 classification |
 | `bandwidth_ci.py` | analytic and bootstrap intervals on the bandwidth slopes |
 | `layered_query.py` | the worked query for corroborated layered compositions |
@@ -105,6 +109,10 @@ Fields per record:
 | `composition_baseline.json` | recall and accuracy of the composition-only baseline |
 | `cutoff_sensitivity.json` | ranks moved and distribution shift at +/-5 per cent cutoff |
 | `anion_choice.json` | rank agreement across the anion classes present |
+| `npj_fig2data.json` | the Figure 5 groups, structure counts and fractional-term enrichment |
+| `composition_ml.json` | accuracy and per-rank recall of the composition classifier |
+| `speed.json` | per-structure parse and index times on 464 structures of the companion's validation set |
+| `kpoints_style.json` | k-point grid style (Γ-centred 314, Monkhorst-Pack 46) of each single-point input |
 | `anion_choice_dropouts.json` | the composition of the 1,500-structure sample: 1,113 competing classes, 352 none, 35 unreadable or unresolved |
 | `layered_query.json` | the corroborated layered compositions and their counts |
 | `exfoliable_overlap.json` | the Mounet overlap counts |
@@ -134,6 +142,7 @@ the Crystallography Open Database bulk archive.
     python code/cutoff_sensitivity.py 100 <cod cif root>
     python code/anion_choice.py 1500 <cod cif root>
     python code/anion_choice_dropouts.py <cod cif root>
+    python code/complete_disagreement_records.py data/cod_dimensionality.jsonl.gz <cif dir> data/npj_disagreements.json
     python code/make_summaries.py data <out_dir>
     python code/bandwidth_ci.py
     python code/layered_query.py
@@ -168,4 +177,4 @@ Code under the MIT licence; data under CC BY 4.0. See LICENSE.txt.
 
 ## Summary files and Figure 5
 
-`make_summaries.py` regenerates npj_stats.json, npj_bymetal.json, npj_wholenet.json, the fit block of npj_bw.json, npj_disagreements.json and npj_fig2data.json. The scripts that first wrote them were lost; the reconstruction reproduces the first four exactly. The Figure 5 classification follows the rule stated in the script and in the paper: the closest pair of depositions at different ranks decides, over 3 per cent apart in volume per atom being different density, within 1 per cent with the same space group index instability, within 1 per cent with different space groups polymorphism, and anything between other.
+`make_summaries.py` regenerates npj_stats.json, npj_bymetal.json, npj_wholenet.json, the fit block of npj_bw.json, npj_disagreements.json and npj_fig2data.json. The scripts that first wrote them were lost; the reconstruction reproduces the first four exactly. The Figure 5 input now covers all 617 compositions and 3,016 depositions (complete_disagreement_records.py), and the Figure 5 classification follows the rule stated in the script and in the paper: the closest pair of depositions at different ranks decides, over 3 per cent apart in volume per atom being different density, within 1 per cent with the same space group index instability, within 1 per cent with different space groups polymorphism, and anything between other.

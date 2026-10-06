@@ -17,8 +17,12 @@ ties broken towards a shared space group):
   within LO and the same space group      -> index instability
   within LO and different space groups    -> polymorphism
   between LO and 3 per cent               -> other (straddles the tolerances)
-A composition whose differing deposition lacks space-group or volume data is
-"other". LO is set by --lo (default 0.01).
+A composition with no pair of depositions at different ranks in its records is
+"other" (none remains once complete_disagreement_records.py has run). Because
+each composition is classed once, by its closest pair, a composition can hold a
+same-phase pair at different ranks yet be classed otherwise; those are listed as
+"also_same_phase", so the index-instability count is a floor. LO is set by --lo
+(default 0.01).
 
     python make_summaries.py <data_dir> <out_dir> [--lo 0.01]
 
@@ -185,6 +189,10 @@ def classify(recs, lo):
     return "other"
 
 
+def dv(a, b):
+    return abs(a[3] - b[3]) / min(a[3], b[3])
+
+
 def disagreement_blocks(detail, recs, lo):
     frac = {r["cod"]: r["frac"] for r in recs}
     order = ["different density", "polymorphism", "index instability", "other"]
@@ -197,15 +205,18 @@ def disagreement_blocks(detail, recs, lo):
         k = cat[x["formula"]]
         n_struct[k] += len(x["recs"])
         above[k] += sum(1 for r in x["recs"] if frac.get(r[0], 0) > 0.1)
+    also = sorted(x["formula"] for x in detail if cat[x["formula"]] != "index instability"
+                  and any(a[1] != b[1] and a[2] == b[2] and dv(a, b) <= lo
+                          for a, b in itertools.combinations(x["recs"], 2)))
     dis = {"n": len(detail), "rule": {"density_tolerance": 0.03, "matched_density": lo},
-           "categories": {k: counts[k] for k in order},
+           "categories": {k: counts[k] for k in order}, "also_same_phase": also,
            "detail": [dict(x, category=cat[x["formula"]]) for x in detail]}
     fig = {"order": order, "counts": [counts[k] for k in order],
            "frac_above": [round(100 * above[k] / n_struct[k], 1) if n_struct[k] else 0.0
                           for k in order],
            "n_struct": [n_struct[k] for k in order],
            "baseline_above": round(100 * sum(1 for v in frac.values() if v > 0.1) / len(frac), 1),
-           "total": len(detail)}
+           "total": len(detail), "also_same_phase": len(also)}
     return dis, fig
 
 

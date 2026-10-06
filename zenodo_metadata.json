@@ -28,7 +28,13 @@
    "relation": "cites",
    "scheme": "doi",
    "resource_type": "publication-article"
+  },
+  {
+   "identifier": "10.5281/zenodo.22716753",
+   "relation": "isSupplementedBy",
+   "scheme": "doi",
+   "resource_type": "dataset"
   }
  ],
- "notes": "Code under MIT, data under CC BY 4.0; see LICENSE.txt. Reserve the DOI before submission and cite it in the Data availability and Code availability statements. The companion methods paper, 'A sublattice dimensionality index validated against deposited metal halides', has its own deposit; add it here as isSupplementedBy once its DOI exists."
+ "notes": "Code under MIT, data under CC BY 4.0; see LICENSE.txt. The companion methods paper, 'A sublattice dimensionality index validated against deposited halides and chalcogenides', has its own deposit, 10.5281/zenodo.22716753."
 }
