@@ -79,6 +79,9 @@ Fields per record:
 | `bandwidth_ci.py` | analytic and bootstrap intervals on the bandwidth slopes |
 | `layered_query.py` | the worked query for corroborated layered compositions |
 | `exfoliable_overlap.py` | overlap with the Mounet exfoliable set, by COD entry number |
+| `sweep_rnext.py` | re-indexes the 703-halide validation set at seven search radius values |
+| `reindex_allmetal.py` | indexer used by the sweep: framework metals and halides each as one class |
+| `codscreen_wide.py` | copper-halide screen; re-indexes with thallium as a counter-cation (Tl2CuI3) |
 
 ### data
 
@@ -100,6 +103,8 @@ Fields per record:
 | `anion_choice.json` | rank agreement across the anion classes present |
 | `layered_query.json` | the corroborated layered compositions and their counts |
 | `exfoliable_overlap.json` | the Mounet overlap counts |
+| `validation_guards.json` | the 703 metal halides with author-stated dimensionality, identical to the copy in 10.5281/zenodo.22716753 |
+| `sweep_rnext.json` | rank, fractional term and nearest rank-raising separation per structure per radius |
 
 ### figures
 
@@ -125,6 +130,11 @@ the Crystallography Open Database bulk archive.
     python code/bandwidth_ci.py
     python code/layered_query.py
     python code/exfoliable_overlap.py EE_and_PE_structures.txt
+    python code/sweep_rnext.py data/validation_guards.json sweep_rnext.json <cod cif root>
+    python code/codscreen_wide.py cod_dimensionality.jsonl --cif-root <cod cif root>
+
+The radius sweep runs on the 703-halide validation set archived with the index itself
+(10.5281/zenodo.22716753) and copied here, not on the database indexed in this archive.
 
 The single-point electronic-structure step needs VASP and is the only part that does not
 run from this archive alone; `setup_bandwidth_scale.py` writes the inputs and
