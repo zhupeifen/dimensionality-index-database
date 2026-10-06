@@ -11,7 +11,7 @@ reading, which the paper quotes but no file held.
 The classification of disagreeing compositions (npj_disagreements.json,
 npj_fig2data.json; Figure 5) uses the rule stated here, which is the rule the
 paper describes. For each composition, the most similar pair of depositions at
-different ranks is found (smallest relative difference in cell volume per atom,
+different ranks is found (smallest relative difference in cell volume per site,
 ties broken towards a shared space group):
   more than 3 per cent apart              -> different density
   within LO and the same space group      -> index instability
@@ -28,7 +28,7 @@ same-phase pair at different ranks yet be classed otherwise; those are listed as
 
 <data_dir> holds cod_dimensionality.jsonl.gz, wholenet_scale.json,
 bw_scale_results.json and npj_disagreements.json (whose "detail" records give,
-per deposition, [cod, rank, space group number, volume per atom, sites]).
+per deposition, [cod, rank, space group number, cell volume per site, sites]).
 """
 import argparse
 import gzip

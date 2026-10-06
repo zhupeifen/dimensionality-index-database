@@ -1,0 +1,11 @@
+{
+ "sampled": 1000,
+ "parsed": 1000,
+ "failed": 0,
+ "disordered": 371,
+ "pct_disordered": 37.1,
+ "ci95_pct": [
+  34.1,
+  40.1
+ ]
+}

@@ -2,7 +2,7 @@
 """Complete the per-deposition records behind the Figure 5 classification.
 
 npj_disagreements.json carries, for each composition deposited at more than one
-rank, a record per deposition: [cod, rank, space group number, volume per atom,
+rank, a record per deposition: [cod, rank, space group number, cell volume per site,
 sites]. The run that first built it left out 20 depositions, among them every
 deposition of five compositions, so 612 of the 617 compositions could be
 classified. This adds the missing records from the CIFs, computed the way the

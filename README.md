@@ -60,7 +60,7 @@ Fields per record:
 
     code/     the indexer and every script that produced a number in the paper
     data/     the indexed database and the computed results, as JSON
-    figures/  the rendered figures and the json they are drawn from
+    figures/  the rendered figures (the json they are drawn from is in data/)
 
 ### code
 
@@ -82,6 +82,7 @@ Fields per record:
 | `composition_ceiling.py` | the ceiling on any composition-only model, from compositions deposited at more than one rank |
 | `npj_figdata.py` | panel data for Figure 2 |
 | `mksi.py` | builds the Supporting Information tables from the files in data/ |
+| `partial_occupancy_sample.py` | share of indexed structures with partially occupied sites, from a random sample |
 | `make_summaries.py` | rebuilds the summary files below from the per-structure data, including the Figure 5 classification |
 | `bandwidth_ci.py` | analytic and bootstrap intervals on the bandwidth slopes |
 | `layered_query.py` | the worked query for corroborated layered compositions |
@@ -113,6 +114,7 @@ Fields per record:
 | `composition_ml.json` | accuracy and per-rank recall of the composition classifier |
 | `speed.json` | per-structure parse and index times on 464 structures of the companion's validation set |
 | `kpoints_style.json` | k-point grid style (Γ-centred 314, Monkhorst-Pack 46) of each single-point input |
+| `partial_occupancy_sample.json` | 371 of 1,000 sampled indexed structures carry partially occupied sites |
 | `anion_choice_dropouts.json` | the composition of the 1,500-structure sample: 1,113 competing classes, 352 none, 35 unreadable or unresolved |
 | `layered_query.json` | the corroborated layered compositions and their counts |
 | `exfoliable_overlap.json` | the Mounet overlap counts |
@@ -122,7 +124,7 @@ Fields per record:
 
 ### figures
 
-The five rendered figures at 600 d.p.i., together with the json they are drawn from. The
+The five rendered figures at 600 d.p.i.; the json they are drawn from is in data/. The
 plotting scripts themselves are MATLAB and are not distributed; every number they draw is
 in data/ and code/.
 
@@ -165,9 +167,10 @@ is involved.
 
 ## Limits
 
-Cells containing more than 90 metal centres are declined rather than evaluated. About a
-third of the archive carries partial occupancies and is indexed on the deposited
-coordinates without an ordering approximation; the electronic-structure sample is
+Cells containing more than 90 metal centres are declined rather than evaluated. Partial
+occupancies are read as each site's majority species, without enumerating orderings;
+37 per cent of indexed structures carry them (95 per cent interval 34 to 40, from a
+random sample of 1,000; partial_occupancy_sample.py); the electronic-structure sample is
 restricted to ordered structures for that reason. The index describes the sublattice it
 is given and makes no claim about the rest of the structure.
 
@@ -177,4 +180,4 @@ Code under the MIT licence; data under CC BY 4.0. See LICENSE.txt.
 
 ## Summary files and Figure 5
 
-`make_summaries.py` regenerates npj_stats.json, npj_bymetal.json, npj_wholenet.json, the fit block of npj_bw.json, npj_disagreements.json and npj_fig2data.json. The scripts that first wrote them were lost; the reconstruction reproduces the first four exactly. The Figure 5 input now covers all 617 compositions and 3,016 depositions (complete_disagreement_records.py), and the Figure 5 classification follows the rule stated in the script and in the paper: the closest pair of depositions at different ranks decides, over 3 per cent apart in volume per atom being different density, within 1 per cent with the same space group index instability, within 1 per cent with different space groups polymorphism, and anything between other.
+`make_summaries.py` regenerates npj_stats.json, npj_bymetal.json, npj_wholenet.json, the fit block of npj_bw.json, npj_disagreements.json and npj_fig2data.json. The scripts that first wrote them were lost; the reconstruction reproduces the first four exactly. The Figure 5 input now covers all 617 compositions and 3,016 depositions (complete_disagreement_records.py), and the Figure 5 classification follows the rule stated in the script and in the paper: the closest pair of depositions at different ranks decides, over 3 per cent apart in cell volume per site being different density, within 1 per cent with the same space group index instability, within 1 per cent with different space groups polymorphism, and anything between other.
