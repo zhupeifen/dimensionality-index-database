@@ -1,0 +1,25 @@
+{
+ "sampled": 1000,
+ "distribution_pct": {
+  "ordered": {
+   "n": 629,
+   "0": 79.3,
+   "1": 6.7,
+   "2": 4.8,
+   "3": 9.2
+  },
+  "disordered": {
+   "n": 371,
+   "0": 70.1,
+   "1": 3.8,
+   "2": 5.9,
+   "3": 20.2
+  }
+ },
+ "disordered_tested": 365,
+ "disordered_reindexed_without_minor_sites": 181,
+ "disordered_untestable": 6,
+ "rank_moved": 0,
+ "rank_moved_pct_of_tested": 0.0,
+ "examples": []
+}

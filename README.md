@@ -82,6 +82,7 @@ Fields per record:
 | `composition_ceiling.py` | the ceiling on any composition-only model, from compositions deposited at more than one rank |
 | `npj_figdata.py` | panel data for Figure 2 |
 | `mksi.py` | builds the Supporting Information tables from the files in data/ |
+| `partial_occupancy_test.py` | re-indexes the sampled disordered structures without sites below half occupancy |
 | `partial_occupancy_sample.py` | share of indexed structures with partially occupied sites, from a random sample |
 | `make_summaries.py` | rebuilds the summary files below from the per-structure data, including the Figure 5 classification |
 | `bandwidth_ci.py` | analytic and bootstrap intervals on the bandwidth slopes |
@@ -114,6 +115,7 @@ Fields per record:
 | `composition_ml.json` | accuracy and per-rank recall of the composition classifier |
 | `speed.json` | per-structure parse and index times on 464 structures of the companion's validation set |
 | `kpoints_style.json` | k-point grid style (Γ-centred 314, Monkhorst-Pack 46) of each single-point input |
+| `partial_occupancy_test.json` | 181 disordered structures re-indexed without minor sites, no rank changed; ordered and disordered rank distributions |
 | `partial_occupancy_sample.json` | 371 of 1,000 sampled indexed structures carry partially occupied sites |
 | `anion_choice_dropouts.json` | the composition of the 1,500-structure sample: 1,113 competing classes, 352 none, 35 unreadable or unresolved |
 | `layered_query.json` | the corroborated layered compositions and their counts |
@@ -124,7 +126,7 @@ Fields per record:
 
 ### figures
 
-The five rendered figures at 600 d.p.i.; the json they are drawn from is in data/. The
+The five rendered figures, as in the manuscript, at 600 d.p.i. or more; the json they are drawn from is in data/. The
 plotting scripts themselves are MATLAB and are not distributed; every number they draw is
 in data/ and code/.
 
@@ -170,7 +172,9 @@ is involved.
 Cells containing more than 90 metal centres are declined rather than evaluated. Partial
 occupancies are read as each site's majority species, without enumerating orderings;
 37 per cent of indexed structures carry them (95 per cent interval 34 to 40, from a
-random sample of 1,000; partial_occupancy_sample.py); the electronic-structure sample is
+random sample of 1,000; partial_occupancy_sample.py), and removing every site below half
+occupancy from the 181 of them that have one changes no integer rank
+(partial_occupancy_test.py); the electronic-structure sample is
 restricted to ordered structures for that reason. The index describes the sublattice it
 is given and makes no claim about the rest of the structure.
 
