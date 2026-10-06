@@ -50,7 +50,7 @@ Fields per record:
 | `formula` | formula as deposited |
 | `D` | the index; null where not computed |
 | `d_top` | integer periodic rank of the bridging network |
-| `frac` | the fractional term, in [0,1) |
+| `frac` | the fractional term, in [0,1); where `nbridge` is 0 there is no bridging network and the term is undefined, recorded as 0 |
 | `anion_class` | oxide, halide or chalcogen |
 | `nsite` | sites in the cell |
 | `nmetal` | framework metal centres |
@@ -75,7 +75,10 @@ Fields per record:
 | `export_polyhedra.py` | coordination polyhedra and repeat directions for the Fig. 1 panels |
 | `composition_baseline.py` | how far composition alone predicts the rank, against the index |
 | `cutoff_sensitivity.py` | re-indexes a stratified sample at scaled bridging cutoffs |
-| `anion_choice.py` | indexes the two-anion structures on each class in turn |
+| `anion_choice.py` | indexes the competing-anion structures on each class in turn |
+| `anion_choice_dropouts.py` | why sampled "anion class not defined" structures were not evaluated: competing classes, none, or unreadable |
+| `composition_ml.py` | the gradient-boosted composition classifier, cross-validated by composition |
+| `make_summaries.py` | rebuilds the summary files below from the per-structure data, including the Figure 5 classification |
 | `bandwidth_ci.py` | analytic and bootstrap intervals on the bandwidth slopes |
 | `layered_query.py` | the worked query for corroborated layered compositions |
 | `exfoliable_overlap.py` | overlap with the Mounet exfoliable set, by COD entry number |
@@ -102,6 +105,7 @@ Fields per record:
 | `composition_baseline.json` | recall and accuracy of the composition-only baseline |
 | `cutoff_sensitivity.json` | ranks moved and distribution shift at +/-5 per cent cutoff |
 | `anion_choice.json` | rank agreement across the anion classes present |
+| `anion_choice_dropouts.json` | the composition of the 1,500-structure sample: 1,113 competing classes, 352 none, 35 unreadable or unresolved |
 | `layered_query.json` | the corroborated layered compositions and their counts |
 | `exfoliable_overlap.json` | the Mounet overlap counts |
 | `exfoliable_composition.json` | the composition-level overlap (815 of 6,907, 11.8 per cent) |
@@ -116,7 +120,7 @@ in data/ and code/.
 
 ## Reproducing the numbers
 
-Requires Python 3.11 with `pymatgen` (2026.5.18) and `numpy`; `ase` (3.26.0) for the
+Requires Python 3.11 with `pymatgen` (2026.5.18) `numpy` and `scipy`, and `scikit-learn` for the composition classifier; `ase` (3.26.0) for the
 whole-network comparison, `scipy` for the polyhedra. Structures come from a local copy of
 the Crystallography Open Database bulk archive.
 
@@ -129,6 +133,8 @@ the Crystallography Open Database bulk archive.
     python code/composition_baseline.py
     python code/cutoff_sensitivity.py 100 <cod cif root>
     python code/anion_choice.py 1500 <cod cif root>
+    python code/anion_choice_dropouts.py <cod cif root>
+    python code/make_summaries.py data <out_dir>
     python code/bandwidth_ci.py
     python code/layered_query.py
     python code/exfoliable_overlap.py EE_and_PE_structures.txt
@@ -159,3 +165,7 @@ is given and makes no claim about the rest of the structure.
 ## Licence
 
 Code under the MIT licence; data under CC BY 4.0. See LICENSE.txt.
+
+## Summary files and Figure 5
+
+`make_summaries.py` regenerates npj_stats.json, npj_bymetal.json, npj_wholenet.json, the fit block of npj_bw.json, npj_disagreements.json and npj_fig2data.json. The scripts that first wrote them were lost; the reconstruction reproduces the first four exactly. The Figure 5 classification follows the rule stated in the script and in the paper: the closest pair of depositions at different ranks decides, over 3 per cent apart in volume per atom being different density, within 1 per cent with the same space group index instability, within 1 per cent with different space groups polymorphism, and anything between other.

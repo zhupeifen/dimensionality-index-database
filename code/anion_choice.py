@@ -2,9 +2,9 @@
 """What does excluding the two-anion structures cost?
 
 The paper indexes a structure only where one bridging anion class is present,
-and sets aside the 148,440 depositions carrying two — an oxide and a halide,
-say — on the grounds that the bridging ligand is not defined without a further
-choice. That is the largest single judgment in the paper: it removes more
+and sets aside the 148,440 depositions without exactly one. Most carry two or
+more, an oxide and a halide, say, where the bridging ligand is not defined without
+a further choice; about a quarter carry none (see anion_choice_dropouts.py). That is the largest single judgment in the paper: it removes more
 structures than it keeps. It has not been tested.
 
 This samples those structures, indexes each on every anion class it contains,

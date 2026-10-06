@@ -24,5 +24,19 @@
  },
  "mixed_pct": 10.3,
  "skipped_large": 1658,
- "halide_random_pct": 17.3
+ "halide_random_pct": 17.3,
+ "permissive": {
+  "differ_pct": 19.5,
+  "by_class": {
+   "oxide": 25.5,
+   "halide": 12.0,
+   "chalcogen": 20.8
+  },
+  "by_rank": {
+   "0": 14.1,
+   "1": 72.8,
+   "2": 61.1,
+   "3": 3.8
+  }
+ }
 }
